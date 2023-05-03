@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.LadoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    width: 240px;
+    position: fixed;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    height: 80vh;
+    justify-content: space-around;
+    
+}
+
+.menu-principal span {
+   
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0 10px 0;
+}
+
+.logo {
+    margin: 0px 15px 0px;
+
+}
+
+.logo img {
+    max-width: 200px;
+    height: 15vh;
+    filter: saturate(0%);
+    margin-left: -10px;
+}
+
+.icone {
+    
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.icone svg {
+    width: 50px;
+    height: 30px;
+}
+
+.perfil{
+    display: flex;
+    width: 90px;
+    height: 30px;
+    /* background: green;  */
+    margin-left: 20px;
+    padding: 0px;
+    margin-top: -15px;
+
+}
+
+.imagemPerfil{
+    display: flex;
+    align-self: baseline;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.imagemPerfil span{
+    padding: 10px;
+    margin-bottom: 5px;
+   
+}
+
+
+.menu-principal img{
+
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+
+/* .perfil span{
+    font-family: 'Roboto', sans-serif;
+    padding: 3px;
+} */

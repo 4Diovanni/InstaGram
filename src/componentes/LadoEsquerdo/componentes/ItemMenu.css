@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.ItemMenu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.ItemMenu span{
+    
+    font-family: 'Roboto', sans-serif;
+    
+}

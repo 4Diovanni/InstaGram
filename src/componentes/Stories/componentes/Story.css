@@ -1,0 +1,54 @@
+.Story {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.Story:hover {
+    opacity: 0.6;
+}
+
+.Story .imgStory {
+    position: relative;
+    width: 70px;
+    border-radius: 50px;
+    
+}
+
+.Story .imgStory img {
+
+  width: 100%;
+  border-radius: 50px;
+  object-fit: cover;
+  
+}
+
+.Story a.prev, .Story a.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  .Story a.prev {
+    left: -15px;
+  }
+  
+  .Story a.next {
+    right: -15px;
+  }
+  
+  .Story a:hover {
+    opacity: 1;
+  }
+
+
+.Story .nomeStory {
+    text-align: center;
+    font-size: 11px;
+}
